@@ -2,7 +2,7 @@
 
 ## Overview
 
-These scripts can be used used to predict the proof sizes of a NIZK proof for proving an MLWE sample in some lattice-based ZKP schemes. Concretely, we want to prove knowledge of a vector s such that the ||(s,Ds-u)|| is at most B.
+These scripts can be used used to predict the proof sizes of a NIZK proof for proving an MLWE sample in some lattice-based ZKP schemes. Concretely, we want to prove knowledge of a vector s such that ||(s,Ds-u)|| is at most B.
 
 The scripts accept configurable parameters (ring dimension, modulus, etc.) and have methods for setting the other parameters (based on the security of lattice assumptions), verifying the required conditions on the parameters hold, and calculating the proof size. 
 
