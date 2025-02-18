@@ -130,6 +130,8 @@ class Katsumata:
 
         # Set value of p
         self.p = ceil(4*self.B+1)
+        if not is_odd(self.p):
+            self.p += 1
 
         # Estimate how many bits q needs to be
         norm = 2*sqrt(2)*self.p*(self.n*self.d*self.v + sqrt(self.n*self.m) * self.d * self.v + sqrt(self.n*self.d)) * self.stdev + 2*self.B
