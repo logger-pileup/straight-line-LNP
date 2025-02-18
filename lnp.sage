@@ -410,6 +410,7 @@ class LNP:
         self.print()
 
 if __name__ == "__main__":
+    print("If you intended to run LNP+Katsumata, please remove this block")
     lnp = LNP(d=128, logq=32)
     lnp.compute_and_print(mlwe_start=11)
 
