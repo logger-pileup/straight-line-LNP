@@ -29,10 +29,10 @@ For example, you should remove the code in this block if executing `sage lnp_kat
 
 ## Results
 
-| Ring dimension | Modulus | LNP / KB | LNP + Katsumata / KB | Straight-line LNP / KB |
-| - | - | - | - | - |
-| 128 | 32 | 14.96 | -     | - |
-| 128 | 64 | 19.58 | 120.7 | - |
-| 128 | 86 | 23.78 | 172.6 | 87.17 |
-| 64  | 64 | 17.95 | 114.1 | - |
-| 64  | 90 | 22.07 | 173.4 | 86.67 |
+| Ring dimension | Modulus | Legnth of witness | LNP / KB | LNP + Katsumata / KB | Straight-line LNP / KB |
+| - | - | - | - | - | - |
+| 128 | 32 | 8 | 14.96 | -     | - |
+| 128 | 64 | 8 | 19.58 | 120.7 | - |
+| 128 | 86 | 8 |23.78 | 172.6 | 87.17 |
+| 64  | 64 | 16 |17.95 | 114.1 | - |
+| 64  | 90 | 16 |22.07 | 173.4 | 86.67 |
