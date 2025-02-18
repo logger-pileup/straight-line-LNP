@@ -15,11 +15,11 @@ to predict the security of LWE and SIS. Since this can take some time to run, we
 
 ```
 git clone https://github.com/malb/lattice-estimator.git 
-cd script
 sage sl_lnp.sage # etc.
 ```
 
 Note: when running a script with `sage`, it executes code in the `if __name__ === "__main__"` of any sripts imported with `load`, which may lead to undesirable behaviour.
+For example, you should remove the code in this block if executing `sage lnp_katsumata.sage` as otherwise it will run the `sl_lnp.sage` script as well.
 
 ## Schemes
 - `lnp.sage` - original LNP.
