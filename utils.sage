@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(1, '../lattice-estimator')
+sys.path.insert(1, './lattice-estimator')
 from estimator import *
 from estimator.schemes import LWEParameters, SISParameters
 from estimator.nd import Uniform
