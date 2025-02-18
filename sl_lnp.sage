@@ -198,6 +198,8 @@ class SL_LNP:
 
         # Set value of p
         self.p = ceil(2*self.norm_z1_prime+1)
+        if not is_odd(self.p):
+            self.p += 1
 
         # Estimate how many bits q needs to be
         estimate_q = max(2*(self.p*self.v*self.norm_z2_prime*self.m2*self.d + self.norm_z1_prime), 
